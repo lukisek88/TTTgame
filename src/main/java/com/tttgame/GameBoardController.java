@@ -38,18 +38,18 @@ public class GameBoardController {
     }
 
     public void setPlayerSymbol(Button button){
-        GameAI gameAI = new GameAI();
+      /*  GameAI gameAI = new GameAI();
         gameAI.aiMove();
-        button.setText("X");
+        button.setText("X");*/
 
 
-        /*if(playerTurn % 2 == 0){
+        if(playerTurn % 2 == 0){
             button.setText("X");
             playerTurn = 1;
         } else{
             button.setText("O");
             playerTurn = 0;
-        }*/
+        }
     }
 
     @FXML
